@@ -9,18 +9,18 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Hannah Leong',
+  subtitle: 'Welcome to my portfolio',
+  cta: 'Find out more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profileCamera.JPG',
+  paragraphOne: 'I am currently a final year degree apprentice with PricewaterhouseCoopers (PwC), studying computer science at the University of Birmingham.',
+  paragraphTwo: 'I have a particular interest in image processing, robotics and cyber security',
+  paragraphThree: 'Paragraph 3 - not much more to say',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Email',
   btn: '',
-  email: '',
+  email: 'hannah.leo64@gmail.com',
 };
 
 // FOOTER DATA
@@ -78,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hannah-leo/',
     },
     {
       id: nanoid(),
